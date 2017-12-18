@@ -11,6 +11,7 @@ import com.banhujiu.utils.wechat.kernel.AbstractAccessToken;
  * @date 2017/12/16 0016 16:51
  */
 public class AccessToken extends AbstractAccessToken {
+	private String baseUrl = "https://api.weixin.qq.com/cgi-bin/token";
 
 	public AccessToken(WechatConfig wechatConfig) {
 		super(wechatConfig);
