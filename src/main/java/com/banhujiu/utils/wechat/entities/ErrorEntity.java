@@ -32,4 +32,11 @@ public class ErrorEntity {
 		sb.append('}');
 		return sb.toString();
 	}
+
+	public boolean isEmpty() {
+		if (errcode == null || errcode.equals("")) {
+			return true;
+		}
+		return false;
+	}
 }
